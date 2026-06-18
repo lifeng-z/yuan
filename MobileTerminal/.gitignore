@@ -1,0 +1,23 @@
+# Android build artifacts
+*.iml
+.gradle/
+build/
+*/build/
+local.properties
+.idea/
+*.apk
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

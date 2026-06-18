@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 颜色资源 — Material Design 3 色彩方案 -->
+<resources>
+    <!-- 主色调 — 清新蓝色系 -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_variant">#0D47A1</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- 辅助色 -->
+    <color name="secondary">#26A69A</color>
+    <color name="secondary_variant">#00897B</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- 表面色和背景色 -->
+    <color name="surface">#FAFAFA</color>
+    <color name="on_surface">#212121</color>
+    <color name="on_surface_variant">#757575</color>
+
+    <!-- 背景色 -->
+    <color name="background">#F5F5F5</color>
+    <color name="on_background">#212121</color>
+
+    <!-- 错误色 -->
+    <color name="error">#D32F2F</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <!-- 基础色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- 分类颜色 -->
+    <color name="category_work">#42A5F5</color>
+    <color name="category_study">#66BB6A</color>
+    <color name="category_life">#FFA726</color>
+    <color name="category_other">#78909C</color>
+</resources>

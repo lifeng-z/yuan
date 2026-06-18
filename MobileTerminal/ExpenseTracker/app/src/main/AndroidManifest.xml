@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 个人记账本 (Expense Tracker) — AndroidManifest.xml -->
+<!-- 东北大学秦皇岛分校 · 移动终端程序设计结课论文（Java版） -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExpenseTracker"
+        tools:targetApi="35">
+
+        <!-- 主活动：账单列表 + 收支统计 -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 添加/编辑账单活动 -->
+        <activity
+            android:name=".ui.AddExpenseActivity"
+            android:exported="false"
+            android:label="@string/add_expense"
+            android:parentActivityName=".ui.MainActivity" />
+
+    </application>
+
+</manifest>

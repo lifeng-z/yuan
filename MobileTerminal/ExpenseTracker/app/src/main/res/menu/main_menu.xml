@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter_all"
+        android:title="@string/filter_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_filter_expense"
+        android:title="@string/filter_expense"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_filter_income"
+        android:title="@string/filter_income"
+        app:showAsAction="never" />
+</menu>

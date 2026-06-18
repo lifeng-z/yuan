@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">个人记账本</string>
+    <string name="add_expense">添加账单</string>
+    <string name="edit_expense">编辑账单</string>
+    <string name="empty_hint">还没有账单记录\n点击右下角 + 添加第一条吧</string>
+    <string name="action_save">保存</string>
+    <string name="action_filter">筛选</string>
+    <string name="filter_all">全部</string>
+    <string name="filter_expense">只看支出</string>
+    <string name="filter_income">只看收入</string>
+    <string name="delete_confirm_title">确认删除</string>
+    <string name="delete_confirm_message">确定要删除此账单吗？此操作不可撤销。</string>
+    <string name="type_expense">支出</string>
+    <string name="type_income">收入</string>
+</resources>

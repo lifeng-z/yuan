@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主页面选项菜单 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 搜索按钮 -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <!-- 筛选子菜单 -->
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/action_filter"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_filter_all"
+                android:title="@string/filter_all" />
+            <item
+                android:id="@+id/action_filter_work"
+                android:title="@string/filter_work" />
+            <item
+                android:id="@+id/action_filter_study"
+                android:title="@string/filter_study" />
+            <item
+                android:id="@+id/action_filter_life"
+                android:title="@string/filter_life" />
+        </menu>
+    </item>
+
+    <!-- 切换布局方式 -->
+    <item
+        android:id="@+id/action_toggle_layout"
+        android:icon="@drawable/ic_grid"
+        android:title="切换布局"
+        app:showAsAction="always" />
+
+</menu>
